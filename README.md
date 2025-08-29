@@ -1,8 +1,13 @@
 # Pos2Distill :camera:
-**OFFICIAL CODE** for paper "POSITION BIAS MITIGATES POSITION BIAS: Mitigate Position Bias Through Inter-Position Knowledge Distillation" (EMNLP2025 Main)
+**OFFICIAL CODE [[paper](https://arxiv.org/abs/2508.15709)]** for paper "POSITION BIAS MITIGATES POSITION BIAS: Mitigate Position Bias Through Inter-Position Knowledge Distillation " (EMNLP2025 Main)
 
+![](./assets/overview.jpg)
 
-[[paper](https://arxiv.org/abs/2508.15709)]
+## TL;DR
+**Pos2Distill** is a novel position to position knowledge distillation framework, transferring knowledge from advantageous positions to rectify responses at unfavorable ones, therefore mitigating position bias naturally.
+
+## Usage
+Updating soon ...
 
 ## Citation
 If you feel this project is helpful, please consider cite our report :blush:
