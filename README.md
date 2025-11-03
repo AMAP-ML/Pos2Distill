@@ -108,7 +108,7 @@ deepspeed --master_port 6666 \
 ```
 ## Evaluation
 
-Currently, the model weights are saved in checkpoints directory. You can run the test code (eval_data.sh) using the command below to evaluate the performance of Pos2Distill.
+1. Currently, the model weights are saved in checkpoints directory. You can run the test code (eval_data.sh) using the command below to evaluate the performance of Pos2Distill on NaturalQuestion datasets.
 
 ```bash
 total_docs=20
@@ -127,6 +127,22 @@ model_name=Mistral-7B-Instruct-v0.3_20total_docs_filter_4random_1strengthen_400_
         --num_gpus "$num_gpus" \
         --total_doc "$total_docs" 
 ```
+2. If you want evaluate Pos2Distill on webq datasets (20 docs), run code below:
+   ```bash
+   model_name=Mistral-7B-Instruct-v0.3_20total_docs_filter_4random_1strengthen_400_kd0.0_lm0.0_rank0.0_adaptive1.0_1.0
+   INPUT_PATH="webq_dev.jsonl.gz"
+   total_docs=20
+   num_gpus=8
+   /mnt/workspace/wangyifei/miniconda3/envs/openrlhf/bin/python eval_data.py \
+          --input-path "$INPUT_PATH" \
+          --model $model_name \
+          --output-path evaluate \
+          --sample_num 500 \
+          --max-prompt-length 32768 \
+          --max-new-tokens 100 \
+          --num_gpus "$num_gpus" \
+          --total_doc "$total_docs" 
+   ```
 
 
 
