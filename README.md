@@ -104,7 +104,7 @@ deepspeed --master_port 6666 \
           --dataset_name $dataset_name \
           --use_tensorboard tensorBoard
 ```
-## Inference
+## Evaluation
 
 Currently, the model weights are saved in checkpoints directory. You can run the test code (eval_data.sh) using the command below to evaluate the performance of Pos2Distill.
 
