@@ -154,7 +154,7 @@ We would like to thank the following works for their code and models:
 - Training: [OpenRLHF](https://github.com/OpenRLHF/OpenRLHF), [TRL](https://huggingface.co/docs/trl/sft_trainer)
 - Datasets: [NaturalQuestions](https://github.com/nelson-liu/lost-in-the-middle), [TQA](https://huggingface.co/datasets/vsearch/tqa), [WEBQA](https://huggingface.co/datasets/vsearch/webq)
 
-We are extremely grateful to  Linjing Li, Yong Wang, Xiangxiang Chu and many other friends in our Machine Learning Group for their helpful feedback and insightful discussions.
+We are extremely grateful to  **Linjing Li**, **Yong Wang**, **Xiangxiang Chu** and many other friends in our Machine Learning Group for their helpful feedback and insightful discussions.
 
 ## Citation
 If you feel this project is helpful, please consider cite our report :blush:. If you have any question about us, please contact the email: [Yifei Wang](https://scholar.google.com/citations?hl=zh-CN&user=AHD4c24AAAAJ).
