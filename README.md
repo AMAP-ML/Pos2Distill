@@ -63,15 +63,15 @@ We provide a NaturalQuestions (20docs) in [google drive]():
 - Second, we need construct advantagous-trivia pairs for knowledge distillation in the training stage:
   - example_num: how many different datapoints are used;
   - position_sample_num: how many trivial positions are sampled.
-```bash
-model_name=Mistral-7B-Instruct-v0.3
-dataset_name=nq
-python create_datasets.py \
-        --model_name $model_name \
-        --position_sample_num 4 \
-        --example_num 400 \
-        --dataset_name $dataset_name
-```
+  ```bash
+  model_name=Mistral-7B-Instruct-v0.3
+  dataset_name=nq
+  python create_datasets.py \
+          --model_name $model_name \
+          --position_sample_num 4 \
+          --example_num 400 \
+          --dataset_name $dataset_name
+  ```
 
 ## Training
 We train our model through the script train_nq.sh: kd_coef controls which training approach you choose, "0.0,0.0,0.0,1.0" means you train models through Pos2Distill.
