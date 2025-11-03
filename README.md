@@ -126,6 +126,15 @@ model_name=Mistral-7B-Instruct-v0.3_20total_docs_filter_4random_1strengthen_400_
         --total_doc "$total_docs" 
 ```
 
+
+
+## Acknowledgement
+We would like to thank the following works for their code and models:
+- Training: [OpenRLHF](https://github.com/OpenRLHF/OpenRLHF), [TRL](https://huggingface.co/docs/trl/sft_trainer)
+- Datasets: [NaturalQuestions](https://github.com/nelson-liu/lost-in-the-middle), [TQA](https://huggingface.co/datasets/vsearch/tqa), [WEBQA](https://huggingface.co/datasets/vsearch/webq)
+
+We are extremely grateful to  Linjing Li, Yong Wang, Xiangxiang Chu and many other friends in our Machine Learning Group for their helpful feedback and insightful discussions.
+
 ## Citation
 If you feel this project is helpful, please consider cite our report :blush:
 ```bibtex
@@ -136,10 +145,3 @@ If you feel this project is helpful, please consider cite our report :blush:
   year={2025}
 }
 ```
-
-## Acknowledgement
-We would like to thank the following works for their code and models:
-- Training: [OpenRLHF](https://github.com/OpenRLHF/OpenRLHF), [TRL](https://huggingface.co/docs/trl/sft_trainer)
-- Datasets: [NaturalQuestions](https://github.com/nelson-liu/lost-in-the-middle), [TQA](https://huggingface.co/datasets/vsearch/tqa), [WEBQA]https://huggingface.co/datasets/vsearch/webq)
-
-We are extremely grateful to  Linjing Li, Yong Wang, Xiangxiang Chu and many other friends in our Machine Learning Group for their helpful feedback and insightful discussions.
