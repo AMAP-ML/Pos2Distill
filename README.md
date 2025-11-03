@@ -4,13 +4,8 @@
     <a href="https://www.arxiv.org/abs/2506.17218">
       <img src='https://img.shields.io/badge/Paper-PDF-red?style=flat&logo=arXiv&logoColor=red' alt='Paper PDF'>
     </a>
-    <a href="https://www.arxiv.org/abs/2506.17218">
-      <img src='https://img.shields.io/badge/Paper-PDF-red?style=flat&logo=arXiv&logoColor=red' alt='Paper PDF'>
-    </a>
-  
   </p>
-</p>
-
+</p> 
 
 
 
@@ -162,7 +157,7 @@ We would like to thank the following works for their code and models:
 We are extremely grateful to  Linjing Li, Yong Wang, Xiangxiang Chu and many other friends in our Machine Learning Group for their helpful feedback and insightful discussions.
 
 ## Citation
-If you feel this project is helpful, please consider cite our report :blush:
+If you feel this project is helpful, please consider cite our report :blush:. If you have any question about us, please contact the email: [Yifei Wang](https://scholar.google.com/citations?hl=zh-CN&user=AHD4c24AAAAJ).
 ```bibtex
 @article{wang2025position,
   title={Position Bias Mitigates Position Bias: Mitigate Position Bias Through Inter-Position Knowledge Distillation},
