@@ -60,7 +60,9 @@ pip install openrlhf==0.6.1.post1
 ## Data Preparation
 We provide a NaturalQuestions (20docs) in [google drive]():
 - Firstly, we need to generate high quality responses from advantagous positions through **gen_advantageous_pos_for_R1.sh**, the resulting responses are saved in raw_data/$dataset_name directory.
-- Second, we need construct advantagous-trivia pairs for knowledge distillation in the training stage: example_num: how many different datapoints are used; position_sample_num: how many trivial positions are sampled.
+- Second, we need construct advantagous-trivia pairs for knowledge distillation in the training stage:
+  - example_num: how many different datapoints are used;
+  - position_sample_num: how many trivial positions are sampled.
 ```bash
 model_name=Mistral-7B-Instruct-v0.3
 dataset_name=nq
