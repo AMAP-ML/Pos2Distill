@@ -112,7 +112,7 @@ deepspeed --master_port 6666 \
   random_num=4
   strengthen=1
   model_name=Mistral-7B-Instruct-v0.3_20total_docs_filter_4random_1strengthen_400_kd0.0_lm0.0_rank0.0_adaptive1.0_1.0
-  /mnt/workspace/wangyifei/miniconda3/envs/openrlhf/bin/python eval_data.py \
+  python eval_data.py \
           --input-path "$INPUT_PATH" \
           --model $model_name \
           --output-path evaluate \
@@ -125,7 +125,7 @@ deepspeed --master_port 6666 \
 2. If you want evaluate Pos2Distill on webq datasets (20 docs), run code below:
    ```bash
    INPUT_PATH="webq_dev.jsonl.gz"
-   /mnt/workspace/wangyifei/miniconda3/envs/openrlhf/bin/python eval_data.py \
+   python eval_data.py \
           --input-path "$INPUT_PATH" \
           --model $model_name \
           --output-path evaluate \
@@ -138,7 +138,7 @@ deepspeed --master_port 6666 \
 3. If you want evaluate Pos2Distill on tqa datasets (20 docs), run code below:
    ```bash
    INPUT_PATH="tqa_dev.jsonl.gz"
-   /mnt/workspace/wangyifei/miniconda3/envs/openrlhf/bin/python eval_data.py \
+   python eval_data.py \
           --input-path "$INPUT_PATH" \
           --model $model_name \
           --output-path evaluate \
