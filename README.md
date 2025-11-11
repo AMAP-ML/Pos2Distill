@@ -1,7 +1,7 @@
 <p align="center">
   <h1 align="center">POSITION BIAS MITIGATES POSITION BIAS: Mitigate Position Bias Through Inter-Position Knowledge Distillation</h1>
   <p align="center">
-    <a href="https://www.arxiv.org/abs/2506.17218">
+    <a href="https://aclanthology.org/2025.emnlp-main.78/">
       <img src='https://img.shields.io/badge/Paper-PDF-red?style=flat&logo=arXiv&logoColor=red' alt='Paper PDF'>
     </a>
   </p>
